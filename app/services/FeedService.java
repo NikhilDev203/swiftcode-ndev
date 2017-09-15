@@ -10,6 +10,7 @@ import play.libs.ws.WSResponse;
 
 import java.util.concurrent.CompletionStage;
 
+
 public class FeedService {
     public FeedResponse feedResponse(String keyword) {
         FeedResponse feedResponseObject = new FeedResponse();
