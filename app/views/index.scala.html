@@ -10,7 +10,7 @@
           layout-align="{{message.sender=='BOT' ? 'start start' : 'start end'}}">
              <md-card style="max-width:75%;border-radius: 10px; padding: 10px; font-size: 14px; " ng-style="message.sender=='BOT'?
                                                      {'background-color':'#ffffff'}:
-                                                     {'background-color':'#eeb74d'};">
+                                                     {'background-color':'#eeb74d'}">
                 <span>{{message.text}}</span>
                 <span ng-bind-html="trust(message.feedResponse.description)">
                   {{message.feedResponse.description}}
